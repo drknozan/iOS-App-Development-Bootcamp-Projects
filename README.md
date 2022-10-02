@@ -25,3 +25,7 @@ This repo contains the apps and challenges I completed while taking "iOS & Swift
 > ![](./img/destini.gif)
 
 > User selects one of the two options to continue story. Story model has title and two choices with destinations properties. StoryBrain model stores array of Story model instances. "storyNumber" property stores the index of current story and it is stored inside StoryBrain structure. When user clicks any option, "nextStory" method which is defined inside StoryBrain, gets triggered and sets the new story depending on the users choice.
+
+## BMI Calculator
+
+> BMI Calculator calculate user's body mass index and give a health advice based on the user's weight and height. When user sets the height and weight sliders and clicks calculate button, "calculateBMI" method runs. The segue with "goToResult" identifier presents the "ResultViewController". Inside the "prepare" function, properties of "ResultViewController" ("bmiValue", "advice", "color") are set. Depending on the user's bmi, background color of the result screen changes. Recalculate button dismiss the "ResultViewController".
