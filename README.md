@@ -31,3 +31,9 @@ This repo contains the apps and challenges I completed while taking "iOS & Swift
 > ![](./img/bmicalculator.gif)
 
 > BMI Calculator calculate user's body mass index and give a health advice based on the user's weight and height. When user sets the height and weight sliders and clicks calculate button, "calculateBMI" method runs. The segue with "goToResult" identifier presents the "ResultViewController". Inside the "prepare" function, properties of "ResultViewController" ("bmiValue", "advice", "color") are set. Depending on the user's bmi, background color of the result screen changes. Recalculate button dismiss the "ResultViewController".
+
+## Tipsy
+
+> ![](./img/tipsy.gif)
+
+> User enters the total bill inside the text field. There are three tip percentage option and one stepper which indicates the number of people. After user clicks the calculate button, the segue with "goToResults" identifier presents the "ResultsViewController". Inside prepare function, all properties(calculated result, tip percentage, number of people) of "ResultsViewController" are set. In "ResultsViewController", user can see total bill per person. Recalculate button dismiss the "ResultsViewController".
